@@ -19,7 +19,9 @@
       margin: 10px;
       background-color: aqua;
   }
-  
+  .panel {
+      grid-area: panel;
+  }
   .menu {
       grid-area: menu;
   }
