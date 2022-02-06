@@ -26,7 +26,7 @@
     <div id="clock">00:00:00</div>
     <div id="date">dd.mm.yy</div>
     <div id="weather">
-    <img id= image src=""></img> <p id=stav></p>
+    <p> <img id= image src=""></img> <span id=stav></span> </p>
     <p> Teplota:<span id=teplota>20</span>° Tlak:<span id=tlak>1000</span>hPa Vlhkost:<span id=vlhkost>53</span>% </p>
     </div>
     <div id="udalosti"></div>

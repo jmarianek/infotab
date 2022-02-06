@@ -1,4 +1,7 @@
-#date {
+img {
+    height: 50px;
+    width: 50px;
+}#date {
     font-size: medium;
     margin: auto;
     text-align: center;
@@ -10,4 +13,7 @@
     text-align: center;
     border: 2px solid black;
     border-radius: 15px;
+  }
+  #stav {
+      font-size: large;
   }

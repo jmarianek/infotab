@@ -1,4 +1,5 @@
-setInterval(showDate, 1000);
+showDate();
+setInterval(showDate, 60000);
 function showDate() {
     let dateObj = new Date();
     var day = dateObj.getUTCDate();
