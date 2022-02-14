@@ -2,17 +2,17 @@
 
 <html lang="cs-cz">
 <head>
-  <meta charset="utf-8"/>
-  <title>Informační tabule</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="panel/style.css">
-      <script src="panel/show_panel.js" defer></script>
-      <script src="panel/showTime.js" defer></script>
-      <script src="panel/showDate.js" defer></script>
-      <script src="panel/showWeather.js" defer></script>
+<meta charset="utf-8"/>
+<title>Informační tabule</title>
+<link rel="stylesheet" href="style-001.css">
+<link rel="stylesheet" href="panel/style.css">
+<script src="panel/show_panel-001.js" defer></script>
+<script src="panel/showTime-001.js" defer></script>
+<script src="panel/showDate-001.js" defer></script>
+<script src="panel/showWeather-001.js" defer></script>
 </head>
-<body>
 
+<body class="noselect">
 <div class="grid-container">
   <div class="main">
       Zde hlavni obsah<br/>
