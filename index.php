@@ -6,6 +6,8 @@
 <title>Informační tabule</title>
 <link rel="stylesheet" href="css/style-001.css">
 <link rel="stylesheet" href="panel/style-001.css">
+<link rel="stylesheet" href="css/reveal/reveal.css">
+<link rel="stylesheet" href="css/reveal/theme/white.css">
 <script src="panel/show_panel-001.js" defer></script>
 <script src="panel/showTime-001.js" defer></script>
 <script src="panel/showDate-001.js" defer></script>
@@ -14,13 +16,12 @@
 
 <body class="noselect">
 <div class="grid-container">
-  <div class="main">
-      Zde hlavni obsah<br/>
-      Zde hlavni obsah<br/>
-      Zde hlavni obsah<br/>
-      Zde hlavni obsah<br/>
-      Zde hlavni obsah<br/>
-      Zde hlavni obsah<br/>
+  <div class="main">      
+    <div class="reveal" style="postion: relative; top: -70px">
+      <div class="slides">
+      <?php include "main/content.php"; ?>
+      </div>
+    </div>
   </div>
   <div class="panel">    
     <div id="clock">00:00:00</div>
@@ -36,6 +37,23 @@
 	    <div id="text">Aplikace je v přípravě...</div>
   </div>
 </div>
+
+
+<script src="js/reveal/reveal.js"></script>
+<script>
+Reveal.initialize({
+    autoSlide: 5000,
+    defaultTiming: 1000,
+    controls: false,
+    loop: true,
+    progress: false
+	//width: "55%",
+	//height: "50%",
+	//margin: 0,
+	//minScale: 0.5,
+	//maxScale: 1.5
+});
+</script>
 
 </body>
 </html> 
