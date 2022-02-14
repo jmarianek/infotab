@@ -4,8 +4,8 @@
 <head>
 <meta charset="utf-8"/>
 <title>Informační tabule</title>
-<link rel="stylesheet" href="style-001.css">
-<link rel="stylesheet" href="panel/style.css">
+<link rel="stylesheet" href="css/style-001.css">
+<link rel="stylesheet" href="panel/style-001.css">
 <script src="panel/show_panel-001.js" defer></script>
 <script src="panel/showTime-001.js" defer></script>
 <script src="panel/showDate-001.js" defer></script>
