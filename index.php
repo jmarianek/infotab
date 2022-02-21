@@ -39,6 +39,7 @@
         </p>
         </div>
     </div>
+    <div style="padding-top: 1em; margin-bottom: -20px">Aktuálně:</div>
     <div id="udalosti"></div>
   </div>
     <!--</div><script> show_panel(); </script>-->
