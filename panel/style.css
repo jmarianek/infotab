@@ -1,19 +1,63 @@
-img {
+div#weather > p > img {
     height: 50px;
     width: 50px;
-}#date {
-    font-size: medium;
-    margin: auto;
-    text-align: center;
 }
-#clock {
-    font-size: 72px;
-    width: 100%;
-    margin: auto;
-    text-align: center;
+
+.top-info {
+	background: rgba(76, 175, 80, 0.3);
+	border-radius: 15px;
+	padding: 5px;
+}
+
+.datetime-info {
     border: 2px solid black;
     border-radius: 15px;
-  }
-  #stav {
-      font-size: large;
-  }
+	background-color: white;
+}
+
+#clock {
+    font-size: 80px;
+    width: 98%;
+    margin: auto;
+    text-align: center;
+	padding: 2px;
+}
+
+#date {
+	font-weight: bold;
+    text-align: center;
+	padding-bottom: 10px;
+}
+
+#weather {
+    margin-top: 1em;
+	opacity: 1;
+	font-weight: bold;
+}
+
+#stav, #teplota, #deg, #date {
+  font-size: 2em;
+}
+
+#news {
+	margin-top: 1em;
+	padding: 10px;
+}
+
+#tlak, #vlhkost, #news {
+  font-size: 1.5em;
+}
+
+#udalosti {
+    padding-top: 1em;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+#udalosti > div {
+	margin: 5px;
+	padding: 5px;
+	color: black;
+	/*background: rgba(76, 175, 80, 0.3);*/
+	border-radius: 5px;
+}

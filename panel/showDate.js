@@ -6,7 +6,7 @@ function showDate() {
     var month = dateObj.getUTCMonth() + 1;
     var year = dateObj.getUTCFullYear();
 
-    let currentDate = day + "." + month + ". " + year;
+    let currentDate = day + "." + month + "." + year;
 
     document.getElementById("date")
             .innerHTML = currentDate;

@@ -3,9 +3,10 @@ async function show_panel() {
     let text = await panelbody.text();
     document.write(text)
 }
-  // CORS ok
-  async function parseXML()
-  {
+
+// CORS ok
+async function parseXML()
+{
     let rss = await fetch('panel/xml/getrss.php');
     let text = await rss.text();
     //console.log(xml);
@@ -23,13 +24,10 @@ async function show_panel() {
       let div = document.createElement("div");
       let text = document.createTextNode(novinka);
       div.appendChild(text);
-      document.getElementById("udalosti").appendChild(div);
-
-      
+      document.getElementById("udalosti").appendChild(div);      
 
     }
-    
-    
+}
+  
+document.body.addEventListener("load", parseXML());
 
-  }
-parseXML()

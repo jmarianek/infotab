@@ -1,5 +1,5 @@
 showTime();
-setInterval(showTime, 1000);
+setInterval(showTime, 60000);
 function showTime() {
     let time = new Date();
     let hour = time.getHours();
@@ -9,7 +9,7 @@ function showTime() {
     min = min < 10 ? "0" + min : min;
     sec = sec < 10 ? "0" + sec : sec;
   
-    let currentTime = hour + ":" + min + ":" + sec;
+    let currentTime = hour + ":" + min/* + ":" + sec*/;
   
     document.getElementById("clock")
             .innerHTML = currentTime;
