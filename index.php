@@ -19,7 +19,7 @@
   <div class="main">      
     <div class="reveal" style="postion: relative; top: -70px">
       <div class="slides">
-      <?php include "main/content.php"; ?>
+      <?php include "main/gallery.php"; ?>
       </div>
     </div>
   </div>
@@ -43,7 +43,7 @@
   </div>
     <!--</div><script> show_panel(); </script>-->
   <div class="scroll">
-	    <div id="text">Aplikace je v přípravě...</div>
+	    <div id="text"><?php include "scroll/get_text.php"; ?></div>
   </div>
 </div>
 

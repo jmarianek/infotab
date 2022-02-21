@@ -108,3 +108,7 @@ body {
     -webkit-animation-timing-function:linear;
     -webkit-animation-iteration-count: infinite;
 }
+
+section {
+	z-index: 10;
+}
