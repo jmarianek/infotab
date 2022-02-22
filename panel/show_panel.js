@@ -5,6 +5,7 @@ async function show_panel() {
 }
 
 // CORS ok
+setInterval(parseXML, 60000);
 async function parseXML()
 {
     let rss = await fetch('panel/xml/getrss.php');
@@ -21,10 +22,15 @@ async function parseXML()
       //console.log(item);
       
       let novinka = (item.getElementsByTagName("title")[0].firstChild.data);
+      let link = (item.getElementsByTagName("link")[0].firstChild.data);
       let div = document.createElement("div");
+      let embed = document.createElement("a");
+      embed.setAttribute("href",link);
+      embed.setAttribute("target","_blank")
       let text = document.createTextNode(novinka);
-      div.appendChild(text);
-      document.getElementById("udalosti").appendChild(div);      
+      embed.appendChild(text);
+      div.appendChild(embed);
+      document.getElementById("udalosti").appendChild(div);
 
     }
 }

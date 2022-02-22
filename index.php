@@ -17,7 +17,7 @@
 <body class="noselect">
 <div class="grid-container">
   <div class="main">      
-    <div class="reveal" style="postion: relative; top: -70px">
+    <div class="reveal" style="position: relative; top: -70px">
       <div class="slides">
       <?php include "main/content.php"; ?>
       </div>

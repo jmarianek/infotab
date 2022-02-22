@@ -1,22 +1,27 @@
 div#weather > p > img {
+	margin-right: 10px;
     height: 50px;
     width: 50px;
 }
 
 .top-info {
-	background: rgba(76, 175, 80, 0.3);
-	border-radius: 15px;
-	padding: 5px;
+	border: 2px;
+	background: rgb(117, 193, 210);
+	border-radius: 5px;
+	padding: 15px;
 }
 
 .datetime-info {
-    border: 2px solid black;
-    border-radius: 15px;
-	background-color: white;
+    border: 2px;
+    border-radius: 5px;
+	background-color: rgb(215, 254, 255);
+	margin-bottom: 15%;
 }
 
 #clock {
-    font-size: 80px;
+    font-family: Arial;
+	font: Arial bold;
+	font-size: 80px;
     width: 98%;
     margin: auto;
     text-align: center;
@@ -24,6 +29,7 @@ div#weather > p > img {
 }
 
 #date {
+	font-family: Arial;
 	font-weight: bold;
     text-align: center;
 	padding-bottom: 10px;
@@ -55,9 +61,15 @@ div#weather > p > img {
 }
 
 #udalosti > div {
-	margin: 5px;
-	padding: 5px;
-	color: black;
+	min-height: 2em;
+	text-align: center;
+	background-color: rgb(117, 193, 210);
+	margin: 3.5%;
+	padding: 10;
 	/*background: rgba(76, 175, 80, 0.3);*/
 	border-radius: 5px;
+}
+#udalosti a {
+	text-decoration: none;
+	color: black;
 }
