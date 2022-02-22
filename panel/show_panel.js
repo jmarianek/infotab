@@ -14,6 +14,7 @@ async function parseXML()
     // parser xml
     parser = new DOMParser();
     xml = parser.parseFromString(text, "text/xml");
+    document.getElementById("udalosti").textContent = "";
     
     let items = xml.getElementsByTagName("item");
     for (i = 0; i < items.length & i<4; i++) {
