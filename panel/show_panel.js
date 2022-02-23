@@ -17,7 +17,7 @@ async function parseXML()
     document.getElementById("udalosti").textContent = "";
     
     let items = xml.getElementsByTagName("item");
-    for (i = 0; i < items.length & i<4; i++) {
+    for (i = 0; i < items.length & i<11; i++) {
       let item = items[i];
       //console.log(item.innerHTML);
       //console.log(item);
