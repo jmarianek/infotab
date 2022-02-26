@@ -26,21 +26,26 @@
   <div class="panel">
     <div class="top-info">
         <div class="datetime-info">
-          <div id="clock">00:00:00</div>
+          <div id="clock">00:00</div>
           <div id="date">dd.mm.yy</div>
         </div>
         <div id="weather">
         <p align="center">
-        <img id="image" src="" style="vertical-align: middle" /><span id="stav"></span>
-        <span id="teplota">20</span><span id="deg">°</span>
-        </p>
+        <img id="image" src="" style="vertical-align: middle" /><span id="teplota">20</span><span id="deg">°</span>
+      </p>
+        <p align="center"><span id="stav"></span>
+      </p>
         <p align="center">
-        Tlak: <span id="tlak">1000</span>hPa Vlhkost: <span id="vlhkost">53</span>%
-        </p>
+        Tlak: <span id="tlak">1000</span>hPa
+      </p>
+        <p align="center">Vlhkost: <span id="vlhkost">53</span>%
+      </p>
         </div>
     </div>
+    <div id="scrollable">
     <div id="Aktuálně" >Aktuálně</div>
     <div id="udalosti"></div>
+    </div>
   </div>
     <!--</div><script> show_panel(); </script>-->
   <div class="scroll">
