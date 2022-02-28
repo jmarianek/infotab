@@ -18,40 +18,38 @@ body {
                                   supported by Chrome, Edge, Opera and Firefox */
 }
   
+/* zrusen, problem na smart tv
 .grid-container {
-    display: grid; /* 2x2 */
+    display: grid; 
 	grid-gap: 0px;
     grid-template-areas:
     'main panel'
     'scroll scroll'
 }
+*/
   
-/* vsichni potomci .grid-container */
-.grid-container > div
-{
-    padding: 10px;
-}
 
 .panel {
-    grid-area: panel;
     background-color: rgb(53, 140, 172);
+	position: absolute;
+	left: calc(100vw - 300px);
+	top: 0;
+	height: calc(100vh - 50px);
+	width: 300px;
+
 }
 
-.menu {
-    grid-area: menu;
-}
   
 .main {
-    grid-area: main;
 	width: calc(100vw - 300px);
-	height: calc(100vh - 70px);
+	height: calc(100vh - 50px);
 }
 
 .scroll {
-    grid-area: scroll;
 	height: 50px;
 }
   
+
 /* pri 600px a mensim displeji skryjeme reklamu */
 @media only screen and (max-width: 600px) {
     /* vypnuti reklamy */
@@ -64,11 +62,6 @@ body {
         width: 100vw;
     }
   
-    .grid-container {
-        grid-template-areas:
-            'main'
-            'scroll'
-    }
 }
 
   

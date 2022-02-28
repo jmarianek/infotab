@@ -15,15 +15,16 @@
 </head>
 
 <body class="noselect">
-<div class="grid-container">
-  <div class="main">      
+
+<div class="main">      
     <div class="reveal" style="position: relative; top: -70px">
       <div class="slides">
       <?php include "main/gallery.php"; ?>
       </div>
     </div>
-  </div>
-  <div class="panel">
+</div>
+
+<div class="panel">
     <div class="top-info">
         <div class="datetime-info">
           <div id="clock">00:00</div>
@@ -46,12 +47,12 @@
     <div id="Aktuálně" >Aktuálně</div>
     <div id="udalosti"></div>
     </div>
-  </div>
-    <!--</div><script> show_panel(); </script>-->
-  <div class="scroll">
-	    <div id="text"><?php include "scroll/get_text.php"; ?></div>
-  </div>
 </div>
+
+<div class="scroll">
+    <div id="text"><?php include "scroll/get_text.php"; ?></div>
+</div>
+
 
 
 <script src="js/reveal/reveal.js"></script>
