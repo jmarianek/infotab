@@ -17,7 +17,7 @@
 <body class="noselect">
 
 <div class="main">      
-    <div class="reveal" style="position: relative; top: -70px">
+    <div class="reveal" style="position: relative; top: 0px">
       <div class="slides">
       <?php include "main/gallery.php"; ?>
       </div>
@@ -58,16 +58,17 @@
 <script src="js/reveal/reveal.js"></script>
 <script>
 Reveal.initialize({
-    autoSlide: 5000,
+    autoSlide: 10000,
     defaultTiming: 1000,
     controls: false,
     loop: true,
-    progress: false
+    progress: false,
 	//width: "55%",
 	//height: "50%",
 	//margin: 0,
-	//minScale: 0.5,
-	//maxScale: 1.5
+	minScale: 0.9,
+	maxScale: 2.0,
+    revealjs_center: true
 });
 </script>
 
