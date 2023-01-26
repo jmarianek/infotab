@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <title>Informační tabule</title>
-<link rel="stylesheet" href="css/style-002.css">
+<link rel="stylesheet" href="css/style-003.css">
 <link rel="stylesheet" href="panel/style-002.css">
 <link rel="stylesheet" href="css/reveal/reveal.css">
 <link rel="stylesheet" href="css/reveal/theme/white.css">
