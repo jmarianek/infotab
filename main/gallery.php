@@ -3,7 +3,13 @@
 ?>
 <section data-transition="zoom">
 <h2>Vítejte na dni otevřených dvěří Gymnázia Tišnov!</h2>
+<br/>
+V době od 8 do 15h jsou pro zájemce přístupné prostory školy
+k nahlédnutí.
+Plnohodnotný DOD s&nbsp;programem proběhne v&nbsp;sobotu 13.1.
+a v&nbsp;úterý 30.1.2024.
 </section>
+
 
 <section data-transition="slide-in fade-out">
 <img src="img/gallery/b1_priz.png" style=" height: 100%" />
@@ -56,53 +62,9 @@ z ul.&nbsp;Riegrova&nbsp;2.</h2>
 <small>Budova Riegrova (NG) 2.p.</small>-->
 </section>
 
-<!--
-<section>
-<img src="img/gallery/IMG_2177.JPG" style="margin-top: 80px;" />
-<br/>
-<small>Maturita</small>
+
+<section data-transition="zoom">
+<h2>Beseda s vedením školy proběhne od 14 hod v&nbsp;učebně D-Z (hl. budova 1. patro).</h2>
 </section>
 
-
-<section>
-<img src="img/gallery/index.JPG" style="margin-top: 80px;" />
-<br/>
-<small>Maturita</small>
-</section>
-
-
-<section style="height: 100%; overflow: none">
-<img src="img/gallery/P1010014.JPG" style="margin-top: 80px;" />
-<br/>
-<small>Sportovní aktivity</small>
-</section>
-
-
-<section style="height: 100%">
-<img src="img/gallery/P1010030.JPG" style="margin-top: 80px;" />
-<br/>
-<small>Sportovní aktivity</small>
-</section>
-
-
-<section>
-<img src="img/gallery/2014-05-16-sbory1.JPG" style="margin-top: 80px;" />
-<br/>
-<small>Sbor</small>
-</section>
-
-
-<section>
-<img src="img/gallery/2014-05-16-sbory2.JPG" style="margin-top: 80px;" />
-<br/>
-<small>Sbor</small>
-</section>
-
-
-<section>
-<img src="img/gallery/20211112_180704.JPG" style="margin-top: 80px;" />
-<br/>
-<small>Prodloužená</small>
-</section>
--->
 
